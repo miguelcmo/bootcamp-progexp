@@ -133,6 +133,42 @@ git push origin --delete feature/nueva-funcionalidad
 
 ---
 
+## Flujo de trabajo Feature Branch
+
+                ┌────────────────────────────────┐
+                │         Repositorio            │
+                │        remoto (GitHub)         │
+                └───────────────┬────────────────┘
+                                │
+                                ▼
+                          ┌────────────┐
+                          │   main     │◄─── Producción
+                          └─────┬──────┘
+                                │
+                    ┌───────────┴───────────┐
+                    ▼                       ▼
+            ┌────────────┐           ┌────────────┐
+            │  develop   │◄─── Rama  │  hotfix/...│
+            └─────┬──────┘           └─────┬──────┘
+                  │                        │
+        ┌─────────┴──────────┐     ┌───────┴────────┐
+        ▼                    ▼     ▼                ▼
+    ┌────────────┐     ┌────────────┐     ┌────────────────┐
+    │feature/... │     │ fix/...    │     │ release/...    │
+    └────────────┘     └────────────┘     └────────────────┘
+        │                   │                    │
+        └───── Merge ───────┴────── Merge ───────┘
+                            │
+                            ▼
+                      ┌────────────┐
+                      │   develop  │
+                      └─────┬──────┘
+                            │
+                            ▼
+                      ┌────────────┐
+                      │   main     │
+                      └────────────┘
+
 ## 💬 Conclusión
 
 Cada cambio va en su propia rama, se revisa mediante Pull Request y se integra a `main` solo cuando ha sido aprobado y probado.

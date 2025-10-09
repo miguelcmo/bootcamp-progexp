@@ -22,30 +22,48 @@ The bootcamp is organized into modules, each focusing on a key area of web devel
 
 ### 4. Frontend Frameworks
 - Introduction to React
-- Building interactive UIs
-- Next.js for server-side rendering and advanced React features
+- Building interactive UIs with hooks and state management
+- Real-world React applications
 
 ### 5. Backend & Cloud Integration
 - Connecting to databases and cloud services (Supabase, Firebase)
-- Building full stack applications
+- Building full stack applications with Next.js
 
-### 6. Development Challenges
-- Real-world projects and coding challenges to reinforce learning
+### 6. Version Control & Collaboration
+- Git and GitHub workflows
+- Best practices for team development
 
 ## 🗂️ Repository Structure
 
-- `01 Programa/` - Curriculum and session notes
-- `02 HTML Basics/` - HTML exercises and examples
-- `03 Advanced HTML/` - Advanced HTML topics and projects
-- `04 CSS Basics/` - CSS fundamentals and exercises
-- `05 Applying CSS/` - Applying styles and selectors
-- `06 CSS Layouts Using Flex/` - Flexbox layouts and mini-games
-- `07 CSS Layouts Using Grid/` - Grid layouts and examples
-- `08 Responsive Layouts/` - Responsive design projects
-- `09 CSS Frameworks/` - Bootstrap and Pico.css resources
-- `10 Retos de desarrollo HMTL+Bootstrap/` - HTML & Bootstrap challenges
-- `11-15 JS Fundamentals/Control Structures/Functions/Arrays/POO Basics/` - JavaScript modules
-- `16 Retos de desarrollo en JS/` - JS development challenges
+### HTML & CSS Foundation
+- `02 HTML Basics/` - HTML exercises and fundamental concepts
+- `03 Advanced HTML/` - Advanced HTML topics, forms, and semantic elements
+- `04 CSS Basics/` - CSS fundamentals, selectors, and properties
+- `05 Applying CSS/` - Practical CSS application and styling techniques
+- `06 CSS Layouts Using Flex/` - Flexbox layouts with 6 interactive mini-games
+- `07 CSS Layouts Using Grid/` - Grid layouts and responsive examples
+- `08 Responsive Layouts/` - Mobile-first design and responsive techniques
+- `09 CSS Frameworks/` - Bootstrap and Pico.css framework integration
+- `10 Retos de desarrollo HMTL+Bootstrap/` - HTML & Bootstrap development challenges
+
+### JavaScript Core
+- `11 JS Fundamentals/` - Variables, data types, and basic syntax
+- `12 JS Control Structures/` - Conditionals, loops, and flow control
+- `13 JS Functions/` - Function declarations, expressions, and arrow functions
+- `14 JS Arrays/` - Array methods and data manipulation
+- `15 JS POO Basics/` - Object-Oriented Programming fundamentals
+- `16 Retos de desarrollo en JS/` - JavaScript development challenges (Level 1)
+- `17 Retos de desarrollo en JS 2/` - JavaScript development challenges (Level 2)
+- `18 Retos de desarrollo en JS 3/` - JavaScript development challenges (Level 3)
+
+### React & Modern Frontend
+- `19 React Introduction/` - React basics, JSX, and component structure
+- `20 React Basic Concepts and Hooks/` - State, props, useState, useEffect, and lifecycle
+- `21 Retos de desarrollo con React/` - React development challenges (Calculator and more)
+- `23 The Movie DB project/` - Full movie database application with API integration
+- `24 Backend con React/` - Backend integration, Supabase, and full-stack development
+- `25 Working with github/` - Git workflows, branches, and collaboration
+- `26 Expand our projects app/` - Advanced project management application
 
 ## 🚀 Getting Started
 
